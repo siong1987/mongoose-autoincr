@@ -1,0 +1,25 @@
+{
+  "name": "mongoose-autoincr",
+  "description": "autoincrement support for mongoose node.js orm",
+  "version": "0.0.1",
+  "homepage": "https://github.com/FLOChip/mongoose-autoincr/",
+  "author": "Teng Siong Ong <siong1987@gmail.com> (https://github.com/siong1987/)",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FLOChip/mongoose-autoincr.git"
+  },
+  "directories": {
+    "lib": "."
+  },
+  "dependencies": {
+    "mongoose": ">=1.4.0"
+  },
+  "devDependencies": {
+    "expresso": ">=0.8.0",
+    "should": ">=0.2.0"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  }
+}
