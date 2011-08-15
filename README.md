@@ -26,10 +26,10 @@ Now, when you define your schema, make sure you include the plugin:
     UserSchema.plugin(mongooseIncr.plugin, {modelName: 'User'});
 
 ## Public Methods
-`loadAutoIncr({counterName: name})`: `counterName` is optional, default
+* `loadAutoIncr({counterName: name})`: `counterName` is optional, default
 as `counters`, this is the table name that is created to store counters for different tables.
 
-`plugin({modelName: name})`: `modelName` is required, this is used to
+* `plugin({modelName: name})`: `modelName` is required, this is used to
 store in the field of the counters table. Make sure that it is unique.
 
 ## Tests
