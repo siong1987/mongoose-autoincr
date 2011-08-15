@@ -17,14 +17,3 @@ watchJS = ->
 # Tasks
 task 'watch', 'Watches all Coffeescript(JS) and Stylus(CSS) files', ->
   watchJS()
-
-task 'test', 'Run all tests', ->
-  expresso = exec "./node_modules/expresso/bin/expresso tests/*.test.js"
-  printOutput(expresso)
-
-task 'docs', 'Create documentation using Docco', ->
-  docco = exec """
-    docco src/*.coffee
-    docco src/test/*.coffee
-  """
-  printOutput(docco)
