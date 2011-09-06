@@ -42,3 +42,6 @@ MIT License
 ---
 ### Author
 [Teng Siong Ong](https://github.com/siong1987/)
+
+### Company
+[FLOChip](http://flochip.com)
